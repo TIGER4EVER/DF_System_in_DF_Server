@@ -9,7 +9,7 @@ const fs = require("fs");
 const getYoutubeID = require('get-youtube-id');
 const fetchVideoInfo = require('youtube-info');
 const yt_api_key = "AIzaSyDeoIH0u1e72AtfpwSKKOSy3IPp2UHzqi4";
-const discord_token = "NTM5Mzg1MDAwMTYwOTE5NTUz.DzcwDQ.zbYDQAVdHdyW9GgjVsshp0KQH08";
+const discord_token = "NTQwMzM4NTQxNzA0NzczNjQy.DziN7Q.i8GUDe6nrT-xF6igIiJOLU6j-NY";
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -17,7 +17,7 @@ client.on('ready', () => {
 
 client.on('ready', function(){
     var ms = 60000 ;
-    var setGame = [`${client.guilds.size} Server`,' Premium Bot™ by Tiger','Type -help |-support |-invite ',`${client.users.size} Members`,'-invite','By: Tiger | BaronTube'];
+    var setGame = [`${client.guilds.size} Server`,' Premium Bot™ by Tiger','Type -help |-support |-invite ',`${client.users.size} Members`,'-invite','By: Tiger | DF_Team'];
     var i = -1;
     var j = 0;
     setInterval(function (){
